@@ -3,7 +3,7 @@
 # experiment to duplicate yes behavior. 
 # This is not yes replacment.
 
-ANSWER="n"
+ANSWER="nay"
 if [ $# -eq 1 ]; then
 	ANSWER=$1
 fi
