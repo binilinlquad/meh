@@ -4,10 +4,10 @@
 # This is not yes replacment.
 
 ANSWER="n"
-if [ -n $1 ]; then
+if [ $# -eq 1 ]; then
 	ANSWER=$1
 fi
 
-while [ -n "{read -u 1}" ]; do 
+while true; do 
 	echo "$ANSWER"
 done
